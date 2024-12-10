@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            width: 250px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-info h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .product-info p {
+            color: #555;
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: #e60000;
+            margin: 10px 0;
+        }
+
+        .button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tienda de Ropa Online</h1>
+    </header>
+
+    <div class="container">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/250x300?text=Camisa+Azul" alt="Camisa Azul">
+            <div class="product-info">
+                <h3>Camisa Azul</h3>
+                <p>Una camiseta ligera y fresca para el verano.</p>
+                <div class="price">$25.99</div>
+                <a href="#" class="button">Comprar</a>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/250x300?text=Jeans+Negros" alt="Jeans Negros">
+            <div class="product-info">
+                <h3>Jeans Negros</h3>
+                <p>Jeans ajustados, perfectos para cualquier ocasión.</p>
+                <div class="price">$35.50</div>
+                <a href="#" class="button">Comprar</a>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/250x300?text=Chaqueta+De+Cuero" alt="Chaqueta De Cuero">
+            <div class="product-info">
+                <h3>Chaqueta de Cuero</h3>
+                <p>Chaqueta de cuero elegante y resistente.</p>
+                <div class="price">$75.00</div>
+                <a href="#" class="button">Comprar</a>
+            </div>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/250x300?text=Vestido+De+Noche" alt="Vestido de Noche">
+            <div class="product-info">
+                <h3>Vestido de Noche</h3>
+                <p>Vestido elegante para ocasiones especiales.</p>
+                <div class="price">$99.99</div>
+                <a href="#" class="button">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
